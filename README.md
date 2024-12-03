@@ -22,18 +22,7 @@ This is a basic WebSocket chat backend implemented in Rust. It allows multiple c
    cd chat-backend
 Build and run the project:
 
-bash
-Copy code
-cargo run
-The WebSocket server will start on ws://localhost:8080. You can connect to it using any WebSocket client.
+   ```bash
+   cargo run
 
-Usage
-Open a WebSocket client (e.g., websocat, browser console, or a WebSocket library).
-
-Connect to the server:
-
-bash
-Copy code
-websocat ws://localhost:8080
-Send and receive messages in real-time.
-
+The WebSocket server will start on ws://127.0.0.1:8080/ws/. You can connect to it using any WebSocket client or the given index.html to test.
