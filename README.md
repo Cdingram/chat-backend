@@ -18,8 +18,8 @@ This is a basic WebSocket chat backend implemented in Rust. It allows multiple c
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/simple-websocket-chat.git
-   cd simple-websocket-chat
+   git clone https://github.com/Cdingram/chat-backend.git
+   cd chat-backend
 Build and run the project:
 
 bash
